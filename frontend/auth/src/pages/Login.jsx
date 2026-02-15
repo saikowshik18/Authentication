@@ -89,7 +89,7 @@ export default function Login() {
       </div>
 
       <div className="text-center mt-2 text-sm">
-        Don’t have an account..?{" "}
+        Don’t have an account kowshik?{" "}
         <Link to="/signup" className="text-indigo-600 font-medium hover:underline">
           Signup
         </Link>
