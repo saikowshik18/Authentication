@@ -20,7 +20,7 @@ export default function Login() {
     setError("");
 
     if (!email || !password) {
-      setError("All fields are required");
+      setError("All fields are required....");
       return;
     }
 
@@ -89,7 +89,7 @@ export default function Login() {
       </div>
 
       <div className="text-center mt-2 text-sm">
-        Don’t have an account?{" "}
+        Don’t have an account..?{" "}
         <Link to="/signup" className="text-indigo-600 font-medium hover:underline">
           Signup
         </Link>
